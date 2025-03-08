@@ -1,0 +1,62 @@
+/* Global Styles */
+
+body {
+    background-color: black;
+    text-align: center;
+}
+
+section {
+    margin: 0.825rem 0;
+}
+
+footer {
+    text-align: right;
+    color: gray
+}
+
+/* Typography */
+
+h1, h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 50px;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 42px;
+}
+
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 21px;
+    color: gray;
+}
+
+/* Components & Links */
+
+a.cta {
+    color: aquamarine;
+    font-size: 16px;
+}
+
+video {
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
